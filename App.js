@@ -39,7 +39,7 @@ export default function App() {
 
         setNumero(format);
 
-      }, 1000);
+      }, 100);
 
       setBotao('Pausar')
     }
@@ -61,6 +61,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}> Cronometro </Text>
 
     <Image
     source={require('./src/crono.png')}
@@ -95,7 +96,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor:'#00aeea'
+    backgroundColor:'#5F9EA0'
+  },
+  title:{
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: "#FFF",
+    marginBottom: 25,
   },
   timer:{
     marginTop: -160,
@@ -120,7 +127,7 @@ const styles = StyleSheet.create({
   btnTexto:{
     fontSize:20,
     fontWeight:'bold',
-    color:'#00aeea'
+    color:'#5F9EA0'
   },
   areaUltima:{
     marginTop: 50,
