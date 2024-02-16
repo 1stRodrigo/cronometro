@@ -17,9 +17,6 @@
 ## Description/Descrição 
 Aplicativo de cronometro e contagem do ultimo tempo percorrido.
 
-Aprendendo a usar:
-    - Picker, Slider, TouchableOpacity, { useState }, Switch, Button, TextInput
-
 
 ## 🚀 How to use/Como usar
     1º Iniciando o projeto em React Native.
